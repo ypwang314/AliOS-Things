@@ -7,7 +7,7 @@
       "command": "aos",
       "args": [
         "make",
-        "helloworld@developerkit",
+        "dk.dk_camera@developerkit",
         "-c",
         "config"
       ],
@@ -32,7 +32,7 @@
       "command": "aos",
       "args": [
         "upload",
-        "helloworld@developerkit"
+        "dk.dk_camera@developerkit"
       ],
       "presentation": {
         "focus": true
@@ -44,7 +44,7 @@
       "command": "aos",
       "args": [
         "debug",
-        "helloworld@developerkit"
+        "dk.dk_camera@developerkit"
       ],
       "presentation": {
         "focus": true
@@ -56,7 +56,7 @@
       "command": "aos",
       "args": [
         "monitor",
-        "",
+        "COM9",
         ""
       ],
       "presentation": {
@@ -82,7 +82,7 @@
       "command": "aos",
       "args": [
         "ota",
-        "helloworld@developerkit",
+        "dk.dk_camera@developerkit",
         "-d",
         "",
         "-p",
